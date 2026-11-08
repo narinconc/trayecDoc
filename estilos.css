@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #222222;
+}
+
+.p{
+ font-size:20px;
+font-family:Arial Narrow;
+}
+
+.encabezado {
+    background-color: #171717;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 5px solid #D6A52A;
+}
+
+.encabezado h1 {
+    margin: 0;
+    color: #D6A52A;
+    font-size: 32px;
+}
+
+.encabezado p {
+    margin: 6px 0 0;
+    font-size: 14px;
+}
+
+.avatar {
+    text-align: center;
+    padding: 5px 5px 5px;
+    }
+
+
+
+.chatbot {
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px auto 35px;
+    background-color: white;
+    border: 2px solid #D6A52A;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chatbot iframe {
+    display: block;
+    width: 100%;
+    height: 650px;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    .encabezado h1 {
+        font-size: 27px;
+    }
+
+    .chatbot {
+        width: 96%;
+    }
+
+    .chatbot iframe {
+        height: 550px;
+    }
+
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.bienvenida img {
+    width: 140px;
+    height: 110px;
+    object-fit: contain;
+}
